@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.46.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Parlor</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar bg-primary text-primary-content">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">Gallery</a></li>
+                        <li><a href="/">Feature</a></li>
+                        <li><a href="/">Contact</a></li>
+
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-2xl uppercase">Beautify</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Gallery</a></li>
+                    <li><a href="/">Feature</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+            <!-- <div class="navbar-end">
+          <a class="btn">Get started</a>
+        </div> -->
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Banner -->
+        <div class="hero min-h-screen" style="background-image: url('/assets/images/bg/2090218.webp');">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Welcome!</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery -->
+
+        <section class=" bg-slate-900 mt-5 p-5 text-white ">
+            <h2 class=" text-center text-2xl font-bold">Gallery</h2>
+            <div class="grid grid-cols-4 gap-4 justify-center mt-5">
+
+                <div class="card  h-80 bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/adam-winger-KVVjmb3IIL8-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Hair Cut</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="card  h-80  bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/adam-winger-WDmvpGs2060-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Hair Wash</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="card  h-80  bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/adam-winger-WXmHwPcFamo-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Hair Dry</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="card  h-80  bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/baylee-gramling-MMz03PyCOZg-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Hair Spike</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="card  h-80  bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Face Wash</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="card  h-80  bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/adam-winger-KVVjmb3IIL8-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Hair Dry</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="card  h-80  bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/baylee-gramling-MMz03PyCOZg-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Hair Stright</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="card  h-80  bg-base-100 shadow-xl image-full">
+                    <figure><img src="assets//images/gallery/hayley-kim-design-sRSRuxkOuzI-unsplash.jpg" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Bro Wash</h2>
+                        <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                        <!-- <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <!-- a lot of the lines are just svg text, actual html is simple 
+A sample contact us page form written with tailwind css
+Illustration from undraw.co by the amazing Katerina Limpitsouni
+-->
+            <div
+                class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
+                <div class="flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
+                        <div class="text-gray-700 mt-8">
+                            Hate forms? Send us an <span class="underline">email</span> instead.
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+
+                    </div>
+                </div>
+                <div class="">
+                    <div>
+                        <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+                        <input
+                            class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            type="text" placeholder="">
+                    </div>
+                    <div class="mt-8">
+                        <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
+                        <input
+                            class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            type="text">
+                    </div>
+                    <div class="mt-8">
+                        <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
+                        <textarea
+                            class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                    </div>
+                    <div class="mt-8">
+                        <button
+                            class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+                            Send Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <footer class="footer p-10 bg-neutral text-neutral-content">
+            <div>
+                <span class="footer-title">Services</span>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </div>
+            <div>
+                <span class="footer-title">Company</span>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </div>
+            <div>
+                <span class="footer-title">Legal</span>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </div>
+        </footer>
+    </footer>
+</body>
+
+</html>
